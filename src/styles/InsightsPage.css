@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  color: #262626;
+  background: #fff;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #d4d4d4; border-radius: 4px; }
+
+
+
+.nav-inner {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 24px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.logo span {
+  color: #b08d55;
+}
+
+.nav-links {
+  display: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: #666;
+}
+
+.nav-links .active {
+  color: #b08d55;
+}
+
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-primary {
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+.main-content {
+  padding: 160px 24px 120px;
+}
+
+/* HEADER */
+.page-header {
+  max-width: 720px;
+  margin: auto;
+}
+
+.header-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #999;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #b08d55;
+  border-radius: 50%;
+}
+
+.page-header h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 500;
+  margin: 24px 0;
+}
+
+.page-header h1 span {
+  color: #b08d55;
+}
+
+.lead {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+.sub-lead {
+  margin-top: 16px;
+  font-size: 0.875rem;
+  color: #999;
+}
+
+/* GRID */
+.insights-grid {
+  max-width: 1024px;
+  margin: 96px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.insight-card {
+  border: 1px solid #eee;
+  padding: 32px;
+  transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+  border-color: rgba(176,141,85,0.3);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+}
+
+.insight-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.insight-card p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.explore {
+  display: block;
+  margin: 24px 0 8px;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #999;
+}
+
+.insight-card ul {
+  padding-left: 16px;
+}
+
+.insight-card li {
+  font-size: 0.875rem;
+  margin-bottom: 6px;
+}
+
+.read-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* CTA */
+.cta-box {
+  background: #111;
+  color: #fff;
+  padding: 64px 32px;
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.cta-actions {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-light {
+  background: #fff;
+  color: #000;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.btn-outline {
+  border: 1px solid #444;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid #eee;
+  padding: 48px 24px;
+}
+
+.footer-inner {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-links a {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+
+/* WHATSAPP */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.whatsapp-btn {
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.tooltip {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  padding: 6px 10px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.whatsapp-float:hover .tooltip {
+  opacity: 1;
+}
+
+/* ANIMATION */
+.fade-up {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 1024px) {
+  .nav-links { display: flex; }
+  .menu-btn { display: none; }
+}

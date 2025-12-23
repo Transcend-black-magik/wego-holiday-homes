@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Dubai holiday home management services for landlords. We offer high ROI short-term rental management, Airbnb co-hosting, and hands-off property solutions."
+    />
+
+    <title>Wego Holiday Homes | Dubai Holiday Home Co-Hosting & Property Management</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Global Styles -->
+    <style>
+      /* Global */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+      }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d4af37;
+        border-radius: 0px;
+      }
+
+      /* Text Selection */
+      ::selection {
+        background: #d4af37;
+        color: #000;
+      }
+
+      /* Reveal Animations */
+      .reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.8s ease-out;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Custom Form Inputs */
+      .custom-input {
+        border: none;
+        border-bottom: 1px solid #e2e8f0;
+        background: transparent;
+        padding: 1rem 0;
+        transition: border-color 0.3s ease;
+      }
+      .custom-input:focus {
+        outline: none;
+        border-bottom: 1px solid #d4af37;
+      }
+
+      /* Hide Details Marker */
+      details > summary {
+        list-style: none;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body class="antialiased text-black bg-white">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
