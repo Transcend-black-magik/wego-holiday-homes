@@ -101,7 +101,7 @@ const UkAndDubaiHomes = () => {
           <span className="text-lg font-semibold">
             WEGO<span className="gold-text">HOLIDAY HOMES</span>
           </span>
-          <p>Luxury Short-Term Rental</p>
+          <p>Luxury Short-Term Rentals</p>
         </div>
       </footer>
     </div>
