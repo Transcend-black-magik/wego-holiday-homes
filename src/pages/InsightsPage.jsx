@@ -105,7 +105,7 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="#" className="article-link">
+              <a href="/blog1" className="article-link">
                 Read Article
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="#" className="article-link">
+              <a href="/blog2" className="article-link">
                 Read Article
                 <svg className="arrow" viewBox="0 0 24 24">
                   <path d="M5 12h14" />
@@ -225,7 +225,7 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="#" className="article-link">
+              <a href="/blog3" className="article-link">
                 Read Article
                 <svg className="arrow" viewBox="0 0 24 24">
                   <path d="M5 12h14" />
@@ -279,7 +279,7 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="#" className="article-link">
+              <a href="/blog4" className="article-link">
                 Read Article
                 <svg className="arrow" viewBox="0 0 24 24">
                   <path d="M5 12h14" />
