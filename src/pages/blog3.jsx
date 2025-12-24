@@ -32,7 +32,6 @@ export default function ShortTermRentalInvesting() {
         <div className="breadcrumb">
           <a href="/insights">← Back to Insights</a>
         </div>
-
         <article className="article">
           <header className="article-header">
             <div className="tags">
