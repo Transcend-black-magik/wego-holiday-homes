@@ -9,6 +9,29 @@
   background-color: rgba(0, 0, 0, 0.95);
   transition: all 0.3s;
 }
+.insights-read-more {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #b08d55;
+  border: 1px solid rgba(176, 141, 85, 0.4);
+  padding: 0.6rem 1.25rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.insights-read-more:hover {
+  background-color: #b08d55;
+  color: #ffffff;
+}
+.blog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
 
 .navbar-container {
   max-width: 1280px;

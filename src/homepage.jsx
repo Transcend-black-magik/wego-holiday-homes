@@ -758,8 +758,13 @@ const WegoHolidayHomes = () => {
       {/* Blog Section.jsx */}
       <section id="insights" className="blog-insights">
         <div className="blog-container">
-          <h2 className="blog-title">Landlord Insights</h2>
+          <div className="blog-header">
+            <h2 className="blog-title">Insights</h2>
 
+            <a href="/insights" className="insights-read-more">
+              Read More
+            </a>
+          </div>
           <div className="blog-grid">
             {/* Article 1 */}
             <article className="blog-card">
