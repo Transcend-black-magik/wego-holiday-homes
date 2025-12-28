@@ -110,7 +110,7 @@ const WegoHolidayHomes = () => {
               <a href="#services" onClick={toggleMobileMenu}>Services</a>
               <a href="#landlords" onClick={toggleMobileMenu}>Landlords</a>
               <a href="#pricing" onClick={toggleMobileMenu}>Pricing</a>
-              <a href="#guest-booking" onClick={toggleMobileMenu}>Book a Stay</a>
+              <a href="/ukanddubai" onClick={toggleMobileMenu}>Book a Stay</a>
               <a href="#contact" className="btn-consultation" onClick={toggleMobileMenu}>
                 Consultation
               </a>
@@ -243,7 +243,6 @@ const WegoHolidayHomes = () => {
 
               <div className="founder-content">
                 <h4 className="founder-eyebrow">The Founder</h4>
-                <h2 className="founder-name">Nwaego Muoma</h2>
 
                 <p className="founder-description">
                   With a distinguished background in property investment and
@@ -259,6 +258,12 @@ const WegoHolidayHomes = () => {
                   should be too. We don&apos;t just host; we curate experiences
                   that drive revenue.”
                 </blockquote>
+                <br />
+                <br />
+                <br />
+                <br />
+                <h2 className="founder-name">Nwaego Muoma</h2>
+                <h3 className="founder-title">Founder &amp; Managing director Wego Holiday Homes</h3>
               </div>
             </div>
           </div>
@@ -615,9 +620,9 @@ const WegoHolidayHomes = () => {
                 <li>Calendar Sync</li>
               </ul>
 
-              <a href="#contact" className="btn-outline">
+              {/* <a href="#contact" className="btn-outline">
                 Inquire
-              </a>
+              </a> */}
             </div>
 
             {/* Plan 2 – Featured */}
@@ -634,9 +639,9 @@ const WegoHolidayHomes = () => {
                 <li>Maintenance Coordination</li>
               </ul>
 
-              <a href="#contact" className="btn-primary">
+              {/* <a href="#contact" className="btn-primary">
                 Get Started
-              </a>
+              </a> */}
             </div>
 
             {/* Plan 3 */}
@@ -650,24 +655,26 @@ const WegoHolidayHomes = () => {
                 <li>Consolidated Reporting</li>
               </ul>
 
-              <a href="#contact" className="btn-outline">
+              {/* <a href="#contact" className="btn-outline">
                 Contact Us
-              </a>
+              </a> */}
             </div>
           </div>
 
           {/* Footer Link */}
           <div className="pricing-footer">
-            <a href="#contact">Request a Free ROI Projection</a>
+            <a href="#contact" className="btn-primary">
+                Get Started
+              </a>
           </div>
         </div>
       </section>
 
       {/* Guest Booking Section */}
-      <section id="guest-booking" className="guest-booking">
+      {/* <section id="guest-booking" className="guest-booking">
         <div className="guest-booking-container">
           <div className="guest-booking-grid">
-            {/* Booking Widget */}
+            Booking Widget *
             <aside className="booking-widget">
               <div className="booking-card">
                 <h3>Book Your Stay</h3>
@@ -707,7 +714,7 @@ const WegoHolidayHomes = () => {
               </div>
             </aside>
 
-            {/* Featured Stays */}
+            Featured Stays 
             <div className="featured-stays">
               <h3>Featured Collections</h3>
 
@@ -753,7 +760,7 @@ const WegoHolidayHomes = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Blog Section.jsx */}
       <section id="insights" className="blog-insights">

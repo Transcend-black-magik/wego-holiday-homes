@@ -248,7 +248,7 @@
   background-color: #d4af37;
   color: black;
   padding: 1rem 2rem;
-  width: 100%;
+  width: 50%;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -415,7 +415,6 @@
 
 .founder-name {
   font-size: 32px;
-  margin-bottom: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -1045,7 +1044,7 @@ details[open] .faq-icon {
 
 /* FOOTER LINK */
 .pricing-footer {
-  text-align: center;
+  justify-items: center;
   margin-top: 48px;
 }
 

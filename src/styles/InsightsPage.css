@@ -505,3 +505,100 @@ body {
 .cta-btn.secondary:hover {
   background: #262626;
 }
+
+
+
+
+
+/* Navbar Inner */
+.nav-inner {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 24px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Desktop nav links */
+.nav-links {
+  display: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: white;
+}
+
+.nav-links .active {
+  color: #b08d55;
+}
+
+/* Mobile hamburger */
+.hamburger-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: block;
+}
+
+.mobile-dropdown {
+  position: absolute;
+  top: 80px; /* below navbar */
+  right: 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 50;
+}
+
+.mobile-dropdown a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #000;
+}
+
+.btn-primary {
+ 
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Responsive behavior */
+@media (min-width: 1024px) {
+  .nav-links {
+    display: flex;
+  }
+  .hamburger-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links a {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: white;
+}
+}

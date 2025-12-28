@@ -1,31 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/ukanddubai.css";
+import logo from "../assets/new-logo.png";
 
 const UkAndDubaiHomes = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="wego-root antialiased text-neutral-800 bg-white">
 
       {/* NAVBAR */}
       <nav className="fixed w-full z-50 top-0 left-0 backdrop-blur-md border-b transition-all duration-300 bg-white/90 border-neutral-100">
         <div className="flex h-20 max-w-7xl mx-auto px-6 md:px-12 items-center justify-between">
-          <a href="#" className="flex items-center gap-1.5">
-            <span className="text-lg font-semibold tracking-tight text-black">
-              WEGO<span className="gold-text">HOLIDAY HOMES</span>
-            </span>
+
+          {/* Logo */}
+          <a href="/" className="logo-wrapper">
+            <img
+              src={logo}
+              alt="Wego Holiday Homes"
+              className="logo-image"
+            />
           </a>
 
+          {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-8">
             <a href="/" className="nav-link">Home</a>
-            <a href="#uk-homes" className="nav-link">UK Collection</a>
-            <a href="#dubai-homes" className="nav-link">Dubai (Coming Soon)</a>
           </div>
 
-          <div className="flex items-center gap-4">
-            
-            <button className="lg:hidden">
-              ☰
-            </button>
+          {/* Mobile Hamburger */}
+          <div
+            className={`lg:hidden hamburger ${isOpen ? "active" : ""}`}
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
+
+        </div>
+
+        {/* Mobile Menu */}
+        <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
+          <a href="/" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
+            Home
+          </a>
         </div>
       </nav>
 
@@ -123,10 +141,10 @@ const UkAndDubaiHomes = () => {
               </ul>
 
               <div className="actions">
-                <a href="https://wa.me/" className="btn-outline">
+                <a href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property." className="btn-outline">
                   Enquire
                 </a>
-                <a href="#" className="btn-gold">
+                <a href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property." className="btn-gold">
                   Book Now
                 </a>
               </div>
@@ -347,12 +365,12 @@ const UkAndDubaiHomes = () => {
           <h2>Plan Your Stay with Confidence</h2>
 
           <div className="final-cta-actions">
-            <a href="#uk-homes" className="cta-primary">
+            <a href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property." className="cta-primary">
               Book a UK Holiday Home
             </a>
 
             <a
-              href="https://wa.me/"
+              href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property."
               className="cta-secondary"
               target="_blank"
               rel="noopener noreferrer"
@@ -379,7 +397,7 @@ const UkAndDubaiHomes = () => {
             <a href="#uk-homes">UK Homes</a>
             <a href="#dubai-homes">Dubai</a>
             <a
-              href="https://wa.me/"
+              href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property."
               target="_blank"
               rel="noopener noreferrer"
             >

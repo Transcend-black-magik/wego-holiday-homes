@@ -1,28 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/InsightsPage.css";
+import logo from "../assets/new-logo.png";
 
 export default function InsightsPage() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="page-root">
       {/* NAV */}
       <nav className="navbar">
-        <div className="nav-inner">
-          <a href="#" className="logo">
-            WEGO<span>HOLIDAY HOMES</span>
+  <div className="nav-inner">
+    {/* Logo */}
+    <a href="/" className="logo">
+      <img src={logo} alt="Wego Holiday Homes" className="logo-image" />
+    </a>
+
+    {/* Desktop Links */}
+    <div className="nav-links">
+      <a href="/" className="btn-primary">
+        Home
+      </a>
+    </div>
+
+    {/* Hamburger (Mobile) */}
+    <div className="hamburger-wrapper">
+      <span
+        className="menu-btn"
+        onClick={() => setIsOpen((prev) => !prev)}
+      >
+        ☰
+      </span>
+
+      {isOpen && (
+        <div className="mobile-dropdown">
+          <a href="/" onClick={() => setIsOpen(false)}>
+            Home
           </a>
-
-          <div className="nav-links">
-            <a href="/ukanddubai">UK Homes</a>
-            <a href="#">Dubai</a>
-            <a href="#" className="active">Insights</a>
-          </div>
-
-          <div className="nav-cta">
-            <a href="/ukanddubai" className="btn-primary">Book Stay</a>
-            <button className="menu-btn">☰</button>
-          </div>
         </div>
-      </nav>
+      )}
+    </div>
+  </div>
+</nav>
+
 
       {/* MAIN */}
       <main className="main-content fade-up">
