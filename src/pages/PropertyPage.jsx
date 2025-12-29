@@ -3,7 +3,7 @@ import "../styles/PropertyPage.css";
 import logo from "../assets/new-logo.png";
 
 export default function PropertyPage() {
-    const handleWhatsApp = () => {
+  const handleWhatsApp = () => {
     window.open(
       "https://wa.me/447404793369?text=Hi%20I’d%20like%20to%20check%20availability%20for%20Wyboston%20Cottage.%20Please%20can%20you%20confirm?",
       "_blank"
@@ -28,7 +28,7 @@ export default function PropertyPage() {
       </div>
     );
   }
- const openWhatsApp = () => {
+  const openWhatsApp = () => {
     window.location.href =
       "https://wa.me/447404793369?text=Hi%20I’d%20like%20to%20check%20availability%20for%20Wyboston%20Cottage.%20Please%20can%20you%20confirm?";
   };
