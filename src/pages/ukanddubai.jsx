@@ -141,10 +141,10 @@ const UkAndDubaiHomes = () => {
               </ul>
 
               <div className="actions">
-                <a href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property." className="btn-outline">
+                <a href="/property">
                   Enquire
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=+4407404793369&text=Hello!%20I%20want%20to%20inquire%20about%20a%20property." className="btn-gold">
+                <a href="/property">
                   Book Now
                 </a>
               </div>
@@ -182,10 +182,10 @@ const UkAndDubaiHomes = () => {
               </ul>
 
               <div className="actions">
-                <a href="https://wa.me/" className="btn-outline">
+                <a href="/property" className="btn-outline">
                   Enquire
                 </a>
-                <a href="#" className="btn-gold">
+                <a href="/property" className="btn-gold">
                   Book Now
                 </a>
               </div>

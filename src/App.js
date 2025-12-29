@@ -7,6 +7,7 @@ import BlogArticle from './pages/blog1';
 import ShortTermVsLongTerm from './pages/blog2';
 import ShortTermRentalInvesting from './pages/blog3';
 import InsightsArticle from './pages/blog4';
+import PropertyPage from './pages/PropertyPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<WegoHolidayHomes />} />
         <Route path="/insights" element={<InsightsPage />} />
         <Route path="/ukanddubai" element={<UkAndDubaiHomes />} />
+        <Route path="/property" element={<PropertyPage />} />
         <Route path="/blog1" element={<BlogArticle />} />
         <Route path="/blog2" element={<ShortTermVsLongTerm />} />
         <Route path="/blog3" element={<ShortTermRentalInvesting />} />
