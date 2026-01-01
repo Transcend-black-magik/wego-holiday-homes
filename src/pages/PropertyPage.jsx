@@ -48,11 +48,11 @@ export default function PropertyPage() {
         </a>
 
         {/* Desktop Links */}
-        <div className="nav-links">
+        {/* <div className="nav-links">
           <a href="#details" className="nav-link">Details</a>
           <a href="#gallery" className="nav-link">Gallery</a>
           <a href="#booking" className="nav-link">Book</a>
-        </div>
+        </div> */}
 
         {/* CTA + Mobile Menu */}
         <div className="nav-actions">
