@@ -297,7 +297,7 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="/blog4" className="article-link">
+              <a href="/dubaimarketoutlook" className="article-link">
                 Read Article
                 <svg className="arrow" viewBox="0 0 24 24">
                   <path d="M5 12h14" />
