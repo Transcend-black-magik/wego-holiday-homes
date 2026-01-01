@@ -297,7 +297,223 @@ export default function InsightsPage() {
                 </ul>
               </div>
 
-              <a href="/dubaimarketoutlook" className="article-link">
+              <a href="/blog4" className="article-link">
+                Read Article
+                <svg className="arrow" viewBox="0 0 24 24">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </article>
+
+            {/* Card 5 */}
+            <article className="article-card">
+              <div className="icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="icon"
+                >
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
+                </svg>
+              </div>
+
+              <h2 className="article-title">
+                Dubai Holiday Homes Market Outlook
+              </h2>
+
+              <p className="article-desc">
+                Understanding market direction is essential for long-term
+                performance.
+              </p>
+
+              <div className="article-body">
+                <span className="explore-label">Explore:</span>
+                <ul className="article-list">
+                  <li>
+                    <span className="dot" />
+                    Demand trends and regulation
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Income expectations in 2025
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Strategic portfolio positioning across UK and Dubai
+                  </li>
+                </ul>
+              </div>
+
+              <a href="/blog5" className="article-link">
+                Read Article
+                <svg className="arrow" viewBox="0 0 24 24">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </article>
+
+            {/* Card 6 */}
+            <article className="article-card">
+              <div className="icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="icon"
+                >
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
+                </svg>
+              </div>
+
+              <h2 className="article-title">
+                Dubai Holiday Homes Market Outlook
+              </h2>
+
+              <p className="article-desc">
+                Understanding market direction is essential for long-term
+                performance.
+              </p>
+
+              <div className="article-body">
+                <span className="explore-label">Explore:</span>
+                <ul className="article-list">
+                  <li>
+                    <span className="dot" />
+                    Demand trends and regulation
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Income expectations in 2025
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Strategic portfolio positioning across UK and Dubai
+                  </li>
+                </ul>
+              </div>
+
+              <a href="/blog6" className="article-link">
+                Read Article
+                <svg className="arrow" viewBox="0 0 24 24">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </article>
+
+            {/* Card 7 */}
+            <article className="article-card">
+              <div className="icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="icon"
+                >
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
+                </svg>
+              </div>
+
+              <h2 className="article-title">
+                Dubai Holiday Homes Market Outlook
+              </h2>
+
+              <p className="article-desc">
+                Understanding market direction is essential for long-term
+                performance.
+              </p>
+
+              <div className="article-body">
+                <span className="explore-label">Explore:</span>
+                <ul className="article-list">
+                  <li>
+                    <span className="dot" />
+                    Demand trends and regulation
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Income expectations in 2025
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Strategic portfolio positioning across UK and Dubai
+                  </li>
+                </ul>
+              </div>
+
+              <a href="/blog7" className="article-link">
+                Read Article
+                <svg className="arrow" viewBox="0 0 24 24">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </article>
+
+            {/* Card 8 */}
+            <article className="article-card">
+              <div className="icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="icon"
+                >
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
+                </svg>
+              </div>
+
+              <h2 className="article-title">
+                Dubai Holiday Homes Market Outlook
+              </h2>
+
+              <p className="article-desc">
+                Understanding market direction is essential for long-term
+                performance.
+              </p>
+
+              <div className="article-body">
+                <span className="explore-label">Explore:</span>
+                <ul className="article-list">
+                  <li>
+                    <span className="dot" />
+                    Demand trends and regulation
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Income expectations in 2025
+                  </li>
+                  <li>
+                    <span className="dot" />
+                    Strategic portfolio positioning across UK and Dubai
+                  </li>
+                </ul>
+              </div>
+
+              <a href="/blog8" className="article-link">
                 Read Article
                 <svg className="arrow" viewBox="0 0 24 24">
                   <path d="M5 12h14" />

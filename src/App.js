@@ -9,6 +9,8 @@ import ShortTermRentalInvesting from './pages/blog3';
 import InsightsArticle from './pages/blog4';
 import PropertyPage from './pages/PropertyPage';
 import DubaiMarketOutlook from './pages/DubaiMarketOutlook';
+import DubaiMarketOutlook2026 from './pages/DubaiMarketOutlook2026';
+import InvestorsStrategies from './pages/InvestorsStrategies';
 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
         <Route path="/blog2" element={<ShortTermVsLongTerm />} />
         <Route path="/blog3" element={<ShortTermRentalInvesting />} />
         <Route path="/blog4" element={<InsightsArticle />} />
-        <Route path='/dubaimarketoutlook' element={ <DubaiMarketOutlook />} />
+        <Route path='/blog5' element={ <DubaiMarketOutlook />} />
+        <Route path='/blog6' element={<ShortTermVsLongTerm />} />
+        <Route path='/blog7' element={<DubaiMarketOutlook2026 />} />
+        <Route path='/blog8' element={<InvestorsStrategies />} />
       </Routes>
     </BrowserRouter>
   );
