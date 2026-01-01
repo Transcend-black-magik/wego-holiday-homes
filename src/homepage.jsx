@@ -407,7 +407,7 @@ const WegoHolidayHomes = () => {
               <p className="landlords-description">
                 Why lock your asset into a fixed annual contract? Holiday home
                 management for Dubai landlords and investors typically yields
-                20–40% higher returns than long-term leasing. We provide a
+                15–20% higher returns than long-term leasing. We provide a
                 hands-off hosting solution for Dubai landlords who value
                 performance.
               </p>

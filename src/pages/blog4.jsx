@@ -1,25 +1,64 @@
 import "../styles/blog4.css";
-
+import "../styles/blog1.css";
+import logo from "../assets/new-logo.png";
+import { useState, useEffect, useRef } from "react";
 export default function InsightsArticle() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const navRef = useRef(null);
+  
+  // Close menu on outside click
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Lock scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "auto";
+  }, [menuOpen]);
+
+  // Close menu on link click
+  const handleLinkClick = () => setMenuOpen(false);
   return (
     <div className="page-root">
       {/* NAV */}
-      <nav className="nav">
+      <nav className="nav" ref={navRef}>
         <div className="nav-inner">
-          <a href="#" className="logo">
-            WEGO<span>HOLIDAY HOMES</span>
+          {/* Logo */}
+          <a href="/" className="logo">
+            <img src={logo} alt="Wego Holiday Homes" className="logo-image" />
           </a>
 
-          <div className="nav-links">
-            <a href="#">UK Homes</a>
-            <a href="#">Dubai</a>
-            <a href="#" className="active">Insights</a>
-          </div>
+          {/* Desktop CTA */}
+          <a href="/ukanddubai" className="btn-primary desktop-cta">
+            Book Stay
+          </a>
 
-          <div className="nav-cta">
-            <a href="#" className="btn-primary">Book Stay</a>
-            <button className="menu-btn">☰</button>
-          </div>
+          {/* Hamburger */}
+          <button
+            className={`menu-btn ${menuOpen ? "open" : ""}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+          <a href="/insights" className="mobile-link" onClick={handleLinkClick}>
+            Insights
+          </a>
+          <a href="/ukanddubai" className="btn-primary mobile-btn" onClick={handleLinkClick}>
+            Book Stay
+          </a>
         </div>
       </nav>
 
