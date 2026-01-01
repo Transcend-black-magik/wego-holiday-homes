@@ -1,16 +1,14 @@
 import React from "react";
 import "../styles/DubaiMarketOutlook2026.css";
-
+import logoImg from "../assets/new-logo.png";
 const DubaiMarketOutlook2026 = () => {
   return (
     <div className="page-container">
       {/* Navigation */}
       <nav className="navbar">
         <div className="navbar-inner">
-          <a href="#" className="logo">
-            <span className="logo-text">
-              WEGO<span className="logo-highlight">HOLIDAY HOMES</span>
-            </span>
+          <a href="/" className="logo">
+            <img src={logoImg} alt="Wego Holiday Homes" className="logo-image" />
           </a>
 
           <div className="desktop-links">

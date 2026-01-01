@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/InvestorsStrategies.css";
-
+import logoImg from "../assets/new-logo.png";
 const InvestorsStrategies = () => {
   return (
     <div className="page-container">
@@ -9,8 +9,8 @@ const InvestorsStrategies = () => {
       <nav className="navbar">
         <div className="navbar-inner">
           {/* Logo */}
-          <a href="/pillar-page" className="logo">
-            WEGO<span className="logo-highlight">HOLIDAY HOMES</span>
+         <a href="/" className="logo">
+            <img src={logoImg} alt="Wego Holiday Homes" className="logo-image" />
           </a>
 
           {/* Desktop Links */}
