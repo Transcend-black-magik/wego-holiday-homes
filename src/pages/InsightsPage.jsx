@@ -325,12 +325,11 @@ export default function InsightsPage() {
               </div>
 
               <h2 className="article-title">
-                Dubai Holiday Homes Market Outlook
+                Dubai holiday home market outlook 2026
               </h2>
 
               <p className="article-desc">
-                Understanding market direction is essential for long-term
-                performance.
+                The Dubai short-term rental market has shifted from a speculative opportunity to a regulated asset class.
               </p>
 
               <div className="article-body">
@@ -338,15 +337,15 @@ export default function InsightsPage() {
                 <ul className="article-list">
                   <li>
                     <span className="dot" />
-                    Demand trends and regulation
+                    operational costs
                   </li>
                   <li>
                     <span className="dot" />
-                    Income expectations in 2025
+                    regulatory framework for UK and international property owners
                   </li>
                   <li>
                     <span className="dot" />
-                    Strategic portfolio positioning across UK and Dubai
+                    Agencies handling bookings
                   </li>
                 </ul>
               </div>
@@ -379,12 +378,11 @@ export default function InsightsPage() {
               </div>
 
               <h2 className="article-title">
-                Dubai Holiday Homes Market Outlook
+                Short-Term Rentals vs Long-Term Lets: Which Is More Profitable?
               </h2>
 
               <p className="article-desc">
-                Understanding market direction is essential for long-term
-                performance.
+                Property owners often ask whether short-term rentals or long-term lets are more profitable. The answer depends on location, strategy, and management.
               </p>
 
               <div className="article-body">
@@ -392,15 +390,15 @@ export default function InsightsPage() {
                 <ul className="article-list">
                   <li>
                     <span className="dot" />
-                    Demand trends and regulation
+                    Increase earnings during peak demand
                   </li>
                   <li>
                     <span className="dot" />
-                    Income expectations in 2025
+                    Adjust pricing dynamically
                   </li>
                   <li>
                     <span className="dot" />
-                    Strategic portfolio positioning across UK and Dubai
+                    Capitalise on tourism and business travel
                   </li>
                 </ul>
               </div>
@@ -433,12 +431,11 @@ export default function InsightsPage() {
               </div>
 
               <h2 className="article-title">
-                Dubai Holiday Homes Market Outlook
+                Dubai Holiday Home Market Outlook: 2025 Investor Guide
               </h2>
 
               <p className="article-desc">
-                Understanding market direction is essential for long-term
-                performance.
+                The short-term rental market in Dubai continues to mature. For property investors and overseas landlords, the outlook for 2025 shifts focus from rapid speculative growth to operational efficiency and sustainable yields.
               </p>
 
               <div className="article-body">
@@ -446,15 +443,15 @@ export default function InsightsPage() {
                 <ul className="article-list">
                   <li>
                     <span className="dot" />
-                    Demand trends and regulation
+                    Focus on prime assets
                   </li>
                   <li>
                     <span className="dot" />
-                    Income expectations in 2025
+                    Plan for seasonality
                   </li>
                   <li>
                     <span className="dot" />
-                    Strategic portfolio positioning across UK and Dubai
+                    Vet your operator
                   </li>
                 </ul>
               </div>
@@ -487,12 +484,11 @@ export default function InsightsPage() {
               </div>
 
               <h2 className="article-title">
-                Dubai Holiday Homes Market Outlook
+                Investors Strategies for Short Term Rentals
               </h2>
 
               <p className="article-desc">
-                Understanding market direction is essential for long-term
-                performance.
+                This guide outlines the core strategies for deploying capital into short-term rentals in the UK and Dubai
               </p>
 
               <div className="article-body">
@@ -500,15 +496,15 @@ export default function InsightsPage() {
                 <ul className="article-list">
                   <li>
                     <span className="dot" />
-                    Demand trends and regulation
+                    Yield Potential vs. Income Stability
                   </li>
                   <li>
                     <span className="dot" />
-                    Income expectations in 2025
+                    Operational Costs and Management
                   </li>
                   <li>
                     <span className="dot" />
-                    Strategic portfolio positioning across UK and Dubai
+                    Regulation and Zoning Compliance
                   </li>
                 </ul>
               </div>
